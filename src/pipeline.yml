@@ -1,0 +1,26 @@
+trigger:
+- Main
+
+pool:
+ vmImage: ubuntu-latest
+
+stages:
+- stage: Build
+  jobs:
+  - job:
+    
+    steps:
+    - script:
+
+
+  - job: 
+    steps:
+    - script:
+  
+
+- stage: Deploy
+  jobs:
+  - job: 
+
+  - job:
+
